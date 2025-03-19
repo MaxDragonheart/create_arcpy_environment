@@ -2,7 +2,7 @@
 
 1- Installare ArcGIS Pro
 
-2- Installare Conda o Miniconda
+2- Installare [Conda o Miniconda](https://docs.conda.io/projects/conda/en/stable/)
 
 3- Avviare 'Anaconda Prompt', quindi digitare 'where conda' in modo da elencare le directory principali di Conda o Miniconda
 
@@ -25,3 +25,8 @@
 
 8- Ora è possibile installare ArcPy e la libreria ArcGIS per Python usando il comando 'conda install -c esri arcpy arcgis'.
 
+## Esportazione del file di environment
+
+Ad ambiente attivato lanciare nel prompt 'conda env export > path\nome_scelto.yml'
+
+Sarà possibile ricreare l'ambiente su un'altra macchina, usando il file precedentemente creato, lanciando il comando 'conda env create -f path\nome_scelto.yml'
